@@ -1,0 +1,19 @@
+body{
+    margin: 0px;
+}
+
+ul{
+    /*quito los boolets de navegacion*/
+    list-style:none;
+    /*quitarle el padin por defecto que tiene*/
+    padding: 0px;
+    margin: 0px;
+    
+}
+.navbar{
+    /*la navegacion una al lado del otro*/
+    display: flex;
+    /* separarlos uno del otro*/
+    justify-content: space-between;
+    padding: 10px;
+}
