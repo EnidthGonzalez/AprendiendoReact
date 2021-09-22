@@ -21,9 +21,8 @@ ul{
 .logo{
     height: 70px;
 }
-.mainButton{  
-    background-color: green;
-    color: white;
+
+.button{
     border: 0px;
     padding: 5px  10px;
     /*redondear bordes*/
@@ -40,7 +39,6 @@ ul{
     background-color: green;
     color: white;
     /*https://developer.mozilla.org/es/docs/Web/CSS/box-shadow  /sombras y color/=*/
-   
 
 }
 /*modificadores*/
@@ -53,9 +51,8 @@ ul{
 .secondaryButton {  
     background-color: #45b6e2;
     color: white;
-
 }
 
 .secondaryButton:hover{
-    box-shadow: 5px 5px #7fe6e6;
+    box-shadow: 1px 1px #7fe6e6;
 }
