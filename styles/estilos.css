@@ -7,9 +7,9 @@ ul{
     list-style: none;
     /*quitarle el padin por defecto que tiene*/
     padding: 0px;
-    margin: 0px;
-    
+    margin: 0px;   
 }
+
 .navbar{
     /*la navegacion una al lado del otro*/
     display: flex;
@@ -17,6 +17,29 @@ ul{
     justify-content: space-between;
     padding: 10px;
 }
+<<<<<<< HEAD
 .logo{
     height: 70px;
+=======
+
+.mainButton{  
+    background-color: green;
+    color: white;
+    border: 0px;
+    padding: 5px  10px;
+    /*redondear bordes*/
+    border-radius: 10px;
+    font-weight: bolder;
+    /*https://developer.mozilla.org/es/docs/Web/CSS/box-shadow  /sombras y color/=*/
+   
+
+}
+/*modificadores*/
+.mainButton:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px greenyellow;
+    /*animacion de tamaño q el boton se vuelva mas grande*/
+    transform: scale(1,1);
+
+>>>>>>> 5-crear-boton-nuevo-post
 }
