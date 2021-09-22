@@ -86,5 +86,21 @@ ul{
 
 .iconoBusqueda:hover {
     color: #1f1fe9;
+}
+.breadCardContainer {
+    display: flex;
+}
+.bridCard {
+    margin: 10px;
+}
+.contenedorImagen{
+    width: 240px;
+    height: 310px;
+    display: flex;
+}
+
+.contenedorImagen > img {
+    object-fit: cover;
+    width: 100%;
 
 }
