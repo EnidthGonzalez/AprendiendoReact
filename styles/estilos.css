@@ -7,9 +7,9 @@ ul{
     list-style: none;
     /*quitarle el padin por defecto que tiene*/
     padding: 0px;
-    margin: 0px;   
+    margin: 0px;
+    
 }
-
 .navbar{
     /*la navegacion una al lado del otro*/
     display: flex;
@@ -17,11 +17,10 @@ ul{
     justify-content: space-between;
     padding: 10px;
 }
-<<<<<<< HEAD
+
 .logo{
     height: 70px;
-=======
-
+}
 .mainButton{  
     background-color: green;
     color: white;
@@ -30,16 +29,33 @@ ul{
     /*redondear bordes*/
     border-radius: 10px;
     font-weight: bolder;
+}
+.button:hover{
+    cursor: pointer;
+    /*animacion de tamaño q el boton se vuelva mas grande*/
+    transform: scale(1,1);
+}
+
+.mainButton{  
+    background-color: green;
+    color: white;
     /*https://developer.mozilla.org/es/docs/Web/CSS/box-shadow  /sombras y color/=*/
    
 
 }
 /*modificadores*/
 .mainButton:hover{
-    cursor: pointer;
-    box-shadow: 5px 5px greenyellow;
-    /*animacion de tamaño q el boton se vuelva mas grande*/
-    transform: scale(1,1);
+    box-shadow: 1px 1px greenyellow;
+    /*animacion de tamaño q el boton se vuelva mas grande
+    transform: scale(1,1);*/
+}
 
->>>>>>> 5-crear-boton-nuevo-post
+.secondaryButton {  
+    background-color: #45b6e2;
+    color: white;
+
+}
+
+.secondaryButton:hover{
+    box-shadow: 5px 5px #7fe6e6;
 }
