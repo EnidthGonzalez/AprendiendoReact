@@ -38,7 +38,7 @@ ul{
     transform: scale(1,1);
 }
 
-.mainButton{  
+.secondaryButton{  
     background-color: #45b6e2;
     color: white;
     border: 0px;
@@ -48,7 +48,7 @@ ul{
     font-weight: bolder;
 }
 
-.mainButton:hover{
+.secondaryButton:hover{
     cursor: pointer;
     box-shadow: 5px 5px rgb(168, 201, 233);
     transform: scale(1,1);
