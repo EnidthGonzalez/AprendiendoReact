@@ -17,40 +17,38 @@ ul{
     justify-content: space-between;
     padding: 10px;
 }
-
-.mainButton{  
-    background-color: green;
-    color: white;
+.button{
     border: 0px;
     padding: 5px  10px;
     /*redondear bordes*/
     border-radius: 10px;
     font-weight: bolder;
-    /*https://developer.mozilla.org/es/docs/Web/CSS/box-shadow  /sombras y color/=*/
-   
-
 }
-/*modificadores*/
-.mainButton:hover{
+.button:hover{
     cursor: pointer;
-    box-shadow: 5px 5px greenyellow;
     /*animacion de tamaño q el boton se vuelva mas grande*/
     transform: scale(1,1);
 }
 
-.secondaryButton{  
+.mainButton{  
+    background-color: green;
+    color: white;
+    /*https://developer.mozilla.org/es/docs/Web/CSS/box-shadow  /sombras y color/=*/
+
+}
+/*modificadores*/
+.mainButton:hover{
+    box-shadow: 1px 1px greenyellow;
+    /*animacion de tamaño q el boton se vuelva mas grande
+    transform: scale(1,1);*/
+}
+
+.secondaryButton {  
     background-color: #45b6e2;
     color: white;
-    border: 0px;
-    padding: 5px  10px;
-    /*redondear bordes*/
-    border-radius: 10px;
-    font-weight: bolder;
+
 }
 
 .secondaryButton:hover{
-    cursor: pointer;
-    box-shadow: 5px 5px rgb(168, 201, 233);
-    transform: scale(1,1);
-
+    box-shadow: 5px 5px #7fe6e6;
 }
