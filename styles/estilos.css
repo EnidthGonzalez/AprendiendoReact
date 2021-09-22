@@ -16,6 +16,14 @@ ul{
     /* separarlos uno del otro*/
     justify-content: space-between;
     padding: 10px;
+    background-color: rgb(237, 237, 238);
+    border-bottom: 1px solid gray;
+    /*sombra al navbar*/
+    box-shadow: 1px 1px ;
+}
+.navbar >li{  /*cualquier li que vaya por debajo de un navbar apliquele la sgtes clases*/
+   display: flex; 
+   align-items: center;
 }
 
 .logo{
@@ -62,6 +70,10 @@ ul{
     border: 1px solid gray;
     padding: 4px;
     border-radius:8px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+
 }
 .buscar:focus-within {
     border: 1px solid blue;
@@ -70,4 +82,9 @@ ul{
 .buscar > input {
     outline: none;
     border: 0px;
+}
+
+.iconoBusqueda:hover {
+    color: #1f1fe9;
+
 }
