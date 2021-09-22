@@ -36,5 +36,21 @@ ul{
     box-shadow: 5px 5px greenyellow;
     /*animacion de tamaño q el boton se vuelva mas grande*/
     transform: scale(1,1);
+}
+
+.mainButton{  
+    background-color: #45b6e2;
+    color: white;
+    border: 0px;
+    padding: 5px  10px;
+    /*redondear bordes*/
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+.mainButton:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px rgb(168, 201, 233);
+    transform: scale(1,1);
 
 }
