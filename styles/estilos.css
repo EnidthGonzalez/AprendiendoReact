@@ -7,9 +7,9 @@ ul{
     list-style:none;
     /*quitarle el padin por defecto que tiene*/
     padding: 0px;
-    margin: 0px;   
+    margin: 0px;
+    
 }
-
 .navbar{
     /*la navegacion una al lado del otro*/
     display: flex;
