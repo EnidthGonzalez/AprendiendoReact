@@ -1,0 +1,73 @@
+body{
+    margin: 0px;
+}
+
+ul{
+    /*quito los boolets de navegacion*/
+    list-style: none;
+    /*quitarle el padin por defecto que tiene*/
+    padding: 0px;
+    margin: 0px;
+    
+}
+.navbar{
+    /*la navegacion una al lado del otro*/
+    display: flex;
+    /* separarlos uno del otro*/
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logo{
+    height: 70px;
+}
+
+.button{
+    border: 0px;
+    padding: 5px  10px;
+    /*redondear bordes*/
+    border-radius: 10px;
+    font-weight: bolder;
+}
+.button:hover{
+    cursor: pointer;
+    /*animacion de tamaño q el boton se vuelva mas grande*/
+    transform: scale(1,1);
+}
+
+.mainButton{  
+    background-color: green;
+    color: white;
+    /*https://developer.mozilla.org/es/docs/Web/CSS/box-shadow  /sombras y color/=*/
+
+}
+/*modificadores*/
+.mainButton:hover{
+    box-shadow: 1px 1px greenyellow;
+    /*animacion de tamaño q el boton se vuelva mas grande
+    transform: scale(1,1);*/
+}
+
+.secondaryButton {  
+    background-color: #45b6e2;
+    color: white;
+}
+
+.secondaryButton:hover{
+    box-shadow: 1px 1px #7fe6e6;
+}
+
+.buscar{
+    background-color: white;  
+    border: 1px solid gray;
+    padding: 4px;
+    border-radius:8px;
+}
+.buscar:focus-within {
+    border: 1px solid blue;
+
+}
+.buscar > input {
+    outline: none;
+    border: 0px;
+}
