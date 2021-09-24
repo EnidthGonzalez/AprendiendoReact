@@ -6,6 +6,8 @@ function App() {
   return (
     <div className="App">
     <header>
+        {/* <div> hola mundo esto es un div </div> */}
+        <div></div>
         <ul className="navbar">
           <li>
             <img src= {logo} alt="imagen" className="logo"/>
@@ -31,19 +33,8 @@ function App() {
         <section>
             <h1>Razas de Perros</h1>
             <ul className="breedCardContainer">
-                <li className="breedCard">
-                    <div className= "contenedorImagen">
-                        <img src={borderCollie} alt="border-collie"/>
-                    </div>
-                    <samp className="breedTitle">Border Collie</samp>
-                  
-                </li>
-                <li className="breedCard">
-                    <div className= "contenedorImagen">
-                        <img src= {rhodesian} alt="Rhodesian"/>
-                    </div>
-                    <samp className="breedTitle">Rhodasian</samp>
-                </li>
+               < CardRazasPerros nombreRaza = "Border Collie" imagen = {borderCollie}/>
+               < CardRazasPerros nombreRaza = "Rhodesian" imagen= {rhodesian}/>
             </ul>
         </section>
     </main>
@@ -51,5 +42,17 @@ function App() {
     </div>
   );
 }
-
+//-----------Creacion de componentes----------//
+// function CardRazasPerros(props) {
+//funcion (imput=> es un objeto y ese objeto tiene {2 propiedades} se vuelven variables y objetos al llamarlo)  
+function CardRazasPerros({nombreRaza, imagen}) {
+    return(
+        <li className="breedCard">
+            <div className= "contenedorImagen">
+                <img src= {imagen} alt={nombreRaza}/>
+            </div>
+            <samp className="breedTitle">{nombreRaza}</samp>
+        </li>
+    )
+}
 export default App;
