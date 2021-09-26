@@ -38,7 +38,9 @@ function App() {
             </ul>
         </section>
     </main>
-    <footer></footer>
+    <footer>
+
+    </footer>
     </div>
   );
 }
@@ -47,12 +49,13 @@ function App() {
 //funcion (imput=> es un objeto y ese objeto tiene {2 propiedades} se vuelven variables y objetos al llamarlo)  
 function CardRazasPerros({nombreRaza, imagen}) {
     return(
+        // <div>hola soy un componente</div>
         <li className="breedCard">
             <div className= "contenedorImagen">
                 <img src= {imagen} alt={nombreRaza}/>
             </div>
             <samp className="breedTitle">{nombreRaza}</samp>
         </li>
-    )
+    );
 }
 export default App;
