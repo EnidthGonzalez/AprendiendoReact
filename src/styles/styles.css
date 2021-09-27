@@ -10,6 +10,20 @@ ul{
   margin: 0px;
   
 }
+/* acomodar 3 componentes header contenido y footer */
+.mainContainer{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+/* este main ocuparia el espacio q le corresponde */
+.mainContainer > main {
+  height: 100%;
+}
+.mainContainer > footer {
+  background-color: red;
+  padding: 10px;
+}
 .navbar{
   /*la navegacion una al lado del otro*/
   display: flex;
