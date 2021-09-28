@@ -15,10 +15,14 @@ ul{
   display: flex;
   flex-direction: column;
   height: 100vh;
+  /* el scrol xa cpmtrpñarñp*/
+  overflow-y: hidden;
 }
 /* este main ocuparia el espacio q le corresponde */
 .mainContainer > main {
   height: 100%;
+  /*colocar el scroll aca*/
+  overflow-y: scroll ;
 }
 .mainContainer > footer {
   background-color: red;
@@ -102,6 +106,10 @@ ul{
 }
 .breedCardContainer {
   display: flex;
+  /*muestra el contenido una debajo de la otra y me muestra el scrol vertical
+  flex-direction: column;*/
+  /*pone el scroll vertical y cuando llegue al final de la pagina el contenido q quede lo pone abajo*/
+  flex-wrap: wrap ;
 }
 .breedCard {
   margin: 10px;
@@ -136,4 +144,10 @@ ul{
   /*borde solo en la parte de arriba*/
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
+}
+.backGroundRojo {
+  background-color: red;
+}
+.backGroundVerde {
+  background-color: green;
 }

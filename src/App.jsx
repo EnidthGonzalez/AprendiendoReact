@@ -1,9 +1,10 @@
 import Index from './pages';
+import Layout from './layouts/Layout';
+import BorderCollie from './pages/borderCollie';
 import RhodesianInfoPage from './pages/rhodesian';
 import { BrowserRouter as Router,Switch, Route, Link } from "react-router-dom";
 import './styles/styles.css';
-import Layout from './layouts/Layout';
-import BorderCollie from './pages/borderCollie';
+
 
 
 function App() {
@@ -22,8 +23,7 @@ function App() {
                     <Index  />
                 </Route>
             </Switch>
-        </Layout >
-        
+        </Layout >        
       </Router>
     </div>
   );
